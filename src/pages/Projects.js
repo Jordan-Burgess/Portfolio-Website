@@ -1,4 +1,5 @@
 import React from 'react'
+import projects from '../allProjects'
 
 export default function Projects() {
   return (
