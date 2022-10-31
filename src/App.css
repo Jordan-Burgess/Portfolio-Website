@@ -47,6 +47,10 @@
   margin-bottom: 50px;
 }
 
+.description {
+  margin-top: 15px;
+}
+
 .links {
   width: 100%;
   display: flex;
