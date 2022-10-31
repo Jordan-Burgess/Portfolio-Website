@@ -7,8 +7,52 @@
 }
 
 .Page {
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
+  padding-top: 100px;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  height: 400px;
+
+}
+
+.Profile {
+  width: 20%;
+  min-width: 150px;
+  max-width: 200px;
+  border-radius: 40px;
+  border: solid 5px rgb(141 211 248);
+  margin-bottom: 15px;
+}
+
+.MainLogo {
+  width: 30%;
+  max-width: 250px;
+  /* height: 30%; */
+}
+
+.AllProjects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 5px;
 }
 
 .HalfPage {
@@ -18,4 +62,11 @@
 
 .ProjectImage {
   width: 80%;
+  min-width: 400px;
+}
+
+hr {
+  height: 5px;
+  border: solid rgb(141 211 248);
+  background-color: rgb(141 211 248);
 }

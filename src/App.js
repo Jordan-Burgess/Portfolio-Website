@@ -10,7 +10,9 @@ function App() {
     <div className="App scrollspy-example bg-light p-3 rounded-2" data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
       <Nav/>
       <Home/>
+      <hr/>
       <About/>
+      <hr/>
       <Projects/>
       <Contact/>
     </div>
