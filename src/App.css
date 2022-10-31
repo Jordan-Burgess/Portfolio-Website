@@ -83,6 +83,11 @@ hr {
 
 .contactlogo {
   height: 30px;
+  margin-right: 10px;
+}
+
+.git {
+  height: 38px;
 }
 
 #contact {
