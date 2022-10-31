@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../images/logo-no-background.png'
+import resume from '../images/resume.pdf'
 
 export default function Nav() {
   return (
@@ -14,6 +15,7 @@ export default function Nav() {
           <a className='nav-link' href='#about'>About</a>
           <a className='nav-link' href='#projects'>Projects</a>
           <a className='nav-link' href='#contact'>Contact</a>
+          <a className='nav-link' href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
         </div>
       </div>
