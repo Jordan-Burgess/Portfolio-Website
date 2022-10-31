@@ -51,6 +51,11 @@
   margin-top: 15px;
 }
 
+.divide {
+  width: 50%;
+  height: 3px;
+}
+
 .links {
   width: 100%;
   display: flex;

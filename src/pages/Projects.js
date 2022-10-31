@@ -17,6 +17,7 @@ export default function Projects() {
                     <a href={project.github}>GitHub</a>
                     <a href={project.live}>Live Site</a>
                   </div>
+                  <hr className='divide'/>
                 </div>
             )
         })}   
