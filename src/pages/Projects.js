@@ -14,8 +14,8 @@ export default function Projects() {
                   <p className='description'>{project.description}</p>
                   <p>Tech Used: {project.tech.join(' | ')}</p>
                   <div className='links'>
-                    <a href={project.github}>GitHub</a>
-                    <a href={project.live}>Live Site</a>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href={project.live} target="_blank" rel="noopener noreferrer">Live Site</a>
                   </div>
                   <hr className='divide'/>
                 </div>
