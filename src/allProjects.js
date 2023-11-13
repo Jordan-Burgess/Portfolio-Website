@@ -2,8 +2,26 @@ import myBooksy from './images/mybooksy.png';
 import polyU from './images/polyu.png';
 import solitaire from './images/solitaire.png';
 import spielBlog from './images/spielblog.png';
+import fam from './images/fam.jpg';
+import refraim from './images/refraim.jpg';
 
 const projects = [
+    {
+        name: 'Refraim',
+        image: refraim,
+        tech: ['React', 'Django', 'Python', 'PostgreSQL', 'OpenAI'],
+        description: 'Refraim is an AI-powered mental health app that helps you to reframe your negative thoughts.',
+        github: 'https://github.com/npereznyc/refraim_frontend',
+        live: 'https://refraim.netlify.app/'
+    },
+    {
+        name: 'Fam',
+        image: fam,
+        tech: ['React Native', 'Django', 'Python', 'PostgreSQL'],
+        description: 'Fam is a mobile application to cater to people who are lonely during the holidays and would love to share a dinner experience with hosting families.',
+        github: 'https://github.com/jac-lene/dinner-front',
+        live: '#',
+    },
     {
         name: "PolyU",
         image: polyU,
